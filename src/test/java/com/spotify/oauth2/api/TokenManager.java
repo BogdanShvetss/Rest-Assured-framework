@@ -26,6 +26,7 @@ public class TokenManager {
                 System.out.println("Token time isn't expired");
             }
         } catch (Exception ex) {
+            ex.printStackTrace();
             throw new RuntimeException("Failed to get token!");
         }
 
