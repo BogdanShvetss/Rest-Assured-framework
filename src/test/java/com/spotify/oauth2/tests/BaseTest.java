@@ -5,7 +5,6 @@ import org.testng.annotations.BeforeMethod;
 import java.lang.reflect.Method;
 
 public class BaseTest {
-
     //maven command to run and pass system properties
     //mvn test -DBASE_URI="https://api.spotify.com" -DACCOUNT_BASE_URI="https://accounts.spotify.com"
 
